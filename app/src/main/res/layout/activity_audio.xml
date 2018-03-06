@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cn.edu.xidian.yk.musicbox.music_play_2.AudioActivity">
+
+    <Button
+        android:id="@+id/btn_online_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="在线播放" />
+
+    <SeekBar
+        android:id="@+id/music_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:max="100"
+        android:secondaryProgress="0"/>
+
+    <Button
+        android:id="@+id/download_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="在线下载" />
+
+    <Button
+        android:id="@+id/stop_download_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="暂停下载" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100" />
+
+    <TextView
+        android:id="@+id/resultView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+</LinearLayout>
